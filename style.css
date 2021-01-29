@@ -1,0 +1,178 @@
+/* Make it so that the navigation menu at the start of the page always stays on screen. */
+#start {
+	/* Can accomplish this header effect by making its positioning sticky and tell
+	it where to stick. */
+	position:sticky;
+	top:0;
+
+	/* Create a border to separate this from the section being viewed. */
+	border-width:3px;
+	border-color:black;
+	border-style:solid;
+
+	/* Make the background blue to stand out but not be grating on the eyes. */
+	background-color:CornflowerBlue;
+
+	/* Reduce the width to 25% of the screen. */
+	width:25%;
+
+	/* Float this to the right so that it is more of a sidebar. */
+	float:right;
+
+	/* Change the font and text size to better fit the menu. */
+	font-size:18px;
+	font-family:Arial;
+
+	/* Increase the height of this so that it is better visible on mobile devices. */
+	height:22em;
+}
+
+/* Make the spacing between list elements in the header farther apart and larger to make navigation
+easier from the sidebar. */
+.navitem {
+	/* Space the elements out more by increasing the upper margin. */
+	margin-top:1em;
+
+	/* Increase the font size to make them more visible. */
+	font-size:1.4em;
+}
+
+/* Make the title of the page stand out more. */
+#pageheader {
+	/* Increase the size to indicate that this is a title. */
+	font-size:2em;
+
+	/* Change the font to a more blocky font to make the title
+	stand out. */
+	font-family:Verdana;
+
+	/* Center the title on the page. */
+	text-align:center;
+
+	/* Give this section a background color that makes it pop. */
+	background-color:orange;
+}
+
+/* Format all subheadings on the page. */
+h2 {
+	/* Change the font family to be more in line with the title. */
+	font-family:sans-serif;
+
+	/* Decrease the size a bit to make the major headings stand out more. */
+	font-size:1.4em;
+
+	/* Change the color of the sub headings a more interesting color. */
+	color:SlateBlue;
+
+	/* Make sure the subheadings remain within 50% of the screen. */
+	width:50%;
+}
+
+/* Change the header for the menu to the orange color and a different size to stand out from the background. */
+#navmenu {
+
+	color:GoldenRod;
+	font-size:1.5em;
+	font-family:sans-serif;
+
+	/* Center the heading in the box. */
+	text-align:center;
+
+	/* Make the header take up 100% of its container. */
+	width:100%;
+}
+
+/* Move the image to the right. */
+img {
+
+	/* Float the image to the right to focus on the content. */
+	float:right;
+}
+
+/* Change the text in the introduction to highlight the contact information. */
+.introitem { 
+
+	/* Increase the text size to highlight the info. */
+	font-size:1.25em;
+
+	/* Change the font style to match the rest of the page. */
+	font-family:sans-serif;
+
+	/* Remain within 50% of the screen. */
+	width:50%;
+}
+
+/* Make the headers larger and a distinct color from the subheadings. */
+.title {
+
+	/* Increase the font size to be greater than the subheadings. */
+	font-size: 1.75em;
+
+	/* Make the color a dark orange to match the color theme. */
+	color:GoldenRod;
+
+	/* Change the font family to match the rest of the fonts. */
+	font-family:sans-serif;
+
+	/* Create a border around the title to better separate the contents of each setting. */
+	border-width:2px;
+	border-color:black;
+	border-style:solid;
+
+	/* Make the background color different to make each separtor stand out more. */
+	background-color:CornflowerBlue;
+
+	/* Make the width only half of the container to fit the text better. */
+	width:50%;
+}
+
+/* Format the informational items on the page. */
+.item {
+	/* Make the information an appropriate size. */
+	font-size:1.25em;
+
+	/* Make the information a distinct font family. */
+	font-family:Helvetica;
+
+	/* Remain within 50% of the screen. */
+	width:50%;
+}
+
+/* Format all list points in a consistent way. */
+.list-point {
+
+	/* Change the font size to be less than the information items. */
+	font-size:16px;
+
+	/* Keep the font family the same as the rest of the information. */
+	font-family:Helvetica;
+}
+
+/* Create a border around each list and give them a slightly different background color to stand out. */
+.descriptivelist {
+
+	/*Create a small black border around each. */
+	border-width:2px;
+	border-color:black;
+	border-style:solid;
+
+	/* Make the background color slightly different to make these sections stand out. */
+	background-color:Cornsilk;
+
+	/* Make the size of each section a little less than half to make them clearly in the
+	section denoted by the headers.. */
+	width:46%;
+}
+
+/* Center and give the bottom of the page a unique color to distinguish it is a navigational link. */
+#end {
+
+	/* Set the background color. */
+	background-color:orange;
+
+	/* Align the text in the center of the page. */
+	text-align:center;
+
+	/* Change the text size to to make it stand out more. */
+	font-size:1em;
+}
