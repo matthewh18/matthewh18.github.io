@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+	<!--Sets the character set and title of the web page.-->
+	<head>
+		<meta charset="utf-8">
+		<title>Resume</title>
+	</head>
+	<body>
+		<!-- Create an ordered list of each section in the resume. -->
+		<section class="supplementarysection" id="start">
+			<div class="navigationmenu" id="pagestart">
+				<nav>
+					<!-- Create a heading to navigate the page. -->
+					<h2 class="subheading" id="navmenu">Page Navigation:</h2>
+					<ol class="orderedlist" id="pagenav">
+						<!-- Create a hyperlink to each section of the page. -->
+						<li>
+							<a class="link" id="introlink" href="#introduction">Introduction</a>
+						</li>
+						<li>
+							<a class="link" id="edulink" href="#education">Education</a>
+						</li>
+						<li>
+							<a class="link" id="explink" href="#experience">Experience</a>
+						</li>
+						<li>
+							<a class="link" id="skillslink" href="#skills">Skills</a>
+						</li>
+						<li>
+							<a class="link" id="honorslink" href="#honors">Honors</a>
+						</li>
+						<li>
+							<a class="link" id="activitieslink" href="#activities">Activities</a>
+						</li>
+					</ol>
+				</nav>
+			</div>
+		</section>
+		<!-- The introduction including my name, mailing address, phone
+		number, email address, and related websites to contact me at. -->
+		<section class="mainsection" id="introduction">
+			<!-- Make my name the first title to indicate this is my resume. -->
+			<div id="pageheader">
+				<header>
+					<h1 class="title" id="name">Matthew Harris' Page</h1>
+				</header>
+			</div>
+			<!-- Include a picture of me under my name. -->
+			<img class="image" id="mypicture" src="matthewh18picture1.png" alt="My picture" width="300" height="400">
+			<!-- Create a subheading to list my mailing address. -->
+			<!-- Create a subheading to list my phone number. -->
+			<h2 class="subheading" id="phonenumber">Contact by Phone:</h2>
+			<!-- List my phone number as an individual item. -->
+			<p class="item" id="cellphone"> (571) 239-0989 </p>
+			<!-- Attach my email address using the same idea. -->
+			<h2 class="subheading" id="email">Contact by email:</h2>
+			<p class="item" id="emailaddress">matthewh18@vt.edu</p>
+			<!-- Attach my LinkedIn using a tag under the right subheading. -->
+			<h2 class="subheading" id="linkedin">LinkedIn Page:</h2>
+			<a class="link item" id="linkedinpage" href="https://www.linkedin.com/in/matthew-harris-82b1381a2/">
+			My LinkedIn Page</a>
+			<!-- Attach a link to my GitPages. -->
+			<h2 class="subheading" id="gitpages"> GitHub Page:</h2>
+			<a class="link item" id="gitpagespage" href="https://www.github.com/matthewh18"> My GitHub Page </a>
+		</section>
+		<!-- Create a section about my education. -->
+		<section class="mainsection" id="education">
+			<!-- Create a new section heading to show this is the education heading. -->
+			<h1 class="title" id="edusection">Education</h1>
+			<!-- Create a division to talk about the degree I'm pursuing and my GPA. -->
+			<div class="subdivision" id="degreediv">
+				<!-- Create a header to talk about my degree. -->
+				<h2 class="subheading" id="degree"> University and Degree Type </h2>
+				<p class="item" id="schoolname"> Virginia Polytechnic and State University, Fall 2021 </h2>
+				<p class="item" id="degreename"> B.S. in Computer Science, Minors in HCI and MATH </p>
+				<p class="item" id="grades"> Overall GPA (as of F20): 3.90 In-Major GPA (as of F20): 3.95 </p>
+			</div>
+			<!-- Create a division to discuss coursework related to my education. -->
+			<div class="subdivision" id="courseworkdiv">
+				<!-- Create a header to indicate I'm talking about my coursework. -->
+				<h2 class="subheading" id="coursework"> Related Coursework </h2>
+				<!-- Create an unorderd list to list relevant coursework. -->
+				<ul class="descriptivelist" id="courseworklist">
+					<li class="list-point" id="softwaredesign"> Introduction to Software Design (F18) </li>
+					<li class="list-point" id="datastructures"> Software Design and Data Structures (S19) </li>
+					<li class="list-point" id="comporg1"> Introduction to Computer Organization I (F19) </li>
+					<li class="list-point" id="seminar"> Computer Science 1st Year Seminar (F19) </li>
+					<li class="list-point" id="problemsolving"> Introduction to Problem Solving in Computer Science (F19) </li>
+					<li class="list-point" id="comporg2"> Introduction to Computer Organization II (S20) </li>
+					<li class="list-point" id="algorithms"> Data Structures and Algorithms (S20) </li>
+					<li class="list-point" id="systems"> Computer Systems (F20) </li>
+					<li class="list-point" id="hci"> Introduction to Human-Computer Interaction (F20) </li>
+					<li class="list-point" id="gui"> Introduction to GUI Programming and Graphics (F20) </li>
+				</ul>
+			</div>
+		</section>
+		<!-- Create a section on relevant experience. -->
+		<section class="mainsection" id="experience">
+			<!-- Create a new section heading to show this is about my work experience. -->
+			<h1 class="title" id="experiencesection"> Experience </h1>
+			<!-- Create a division for my first (and only) job so far. -->
+			<div class="subdivision" id="experiencediv">
+				<!-- Create a header to talk about my first job, time there, and what I did. -->
+				<h2 class="subheading" id="caci"> CACI International, Sterling VA Summer 2020 </h2>
+				<p class="item" id="jobtitle"> Software Engineering Intern </p>
+				<!-- Create an unordered list to talk about my tasks. -->
+				<ul id="descriptivelist" id="jobtasks">
+					<li class="list-point" id="overview"> Worked with a team of other software engineering interns and a full-time manager.</li>
+					<li class="list-point" id="skillsbuilt"> Improved teamwork, project planning, and technical planning working with a team on a large project. </li>
+					<li class="list-point" id="specialty"> Worked with machine learning to help software track objects using computer vision. </li>
+				</ul>
+			</div>
+		</section>
+		<!-- Create a section on relevant skills. -->
+		<section class="mainsection" id="skills">
+			<!-- Create a header to indicate I'm talking about my skills. -->
+			<h1 class="title" id="skillssection"> Skills </h1>
+			<!-- Create a division for code-related skills. -->
+			<div class="subdivision" id="codeskills">
+				<!-- Create a heading to show this is code related skills and lists them in an unordered list under it. -->
+				<h2 class="subheading" id="codeskillsheading"> Coding Skills </h2>
+				<ul class="descriptivelist" id="codinglist">
+					<li class="list-point" id="java"> Java </li>
+					<li class="list-point" id="c"> C </li>
+					<li class="list-point" id="python"> Python </li>
+				</ul>
+			</div>
+			<!-- Create a division for relevant coding environments. -->
+			<div class="subdivision" id="environskills">
+				<h2 class="subheading" id="environheading"> Coding Environments </h2>
+				<ul class="descriptivelist" id="environments">
+					<li class="list-point" id="linux"> Linux </li>
+					<li class="list-point" id="centos"> CentOS 7/8 </li>
+				</ul>
+			</div>
+			<!-- Create a division for other relevant skills. -->
+			<div class="subdivision" id="otherskills">
+				<h2 class="subheading" id="otherheading"> Coding Environments </h2>
+				<ul class="descriptivelist" id="otherlist">
+					<li class="list-point" id="publicspeaking"> Public Speaking </li>
+					<li class="list-point" id="techwriting"> Technical Writing </li>
+					<li class="list-point" id="musictech"> Music Technology (Max 8) </li>
+				</ul>
+			</div>
+		</section>
+		<!-- Create a section for any honors I've received. -->
+		<section class="mainsection" id="honors">
+			<!-- Create a relevant header. -->
+			<h1 class="title" id="honorssection"> Honors </h1>
+			<!-- Create a short list for honors. -->
+			<ul class="descriptivelist" id="honorslist">
+				<li class="list-point" id="deanslist"> Dean's List (F18, S19, F19) </li>
+				<li class="list-point" id="honorscollege"> Member of Virginia Tech Honor's College </li>
+			</ul>
+		</section>
+		<!-- Create a section for my extracurricular activities. -->
+		<section class="mainsection" id="activities">
+			<!--Create a relevant header. -->
+			<h1 class="title" id="activitiessection"> Activities </h1>
+			<!-- Create a division to talk about the club I'm involved in and add new sections for anything
+				else later. -->
+			<div class="subdivision" id="smashclub">
+				<!-- Title this section then talk about my club role and what the club does. -->
+				<h2 class="subheading" id="smashclubhead"> VT Super Smash Bros Club </h2>
+				<p class="item" id="role"> Member since F18, Co-President F19-S20, President F20-Present </p>
+				<p class="item" id="listtitle"> Responsibilites as Co-President/President </p>
+				<ul class="descriptivelist" id="smashclubresponsibilities">
+					<li class="long-list-point" id="tourneys"> Run large scale (30-100 person) tournaments each week, testing
+					my leadership and planning skills. </li>
+					<li class="long-list-point" id="community"> Continuously making efforts to translate our community online
+					after historically only being in person for events. </li>
+					<li class="long-list-point" id="largetourneys"> Advertised and made long-term plans for events to attract
+					players from outside Virginia Tech each semester except for the ones affected by COVID. </li>
+				</ul>
+			</div>
+		</section>
+		<!--Create a section for people that reach the bottom to easily reach the top of the page again. -->
+		<section class="supplementarysection" id="end">
+			<a class="link" id="top" href="#start"> Return to top </a>
+		</section>
+	</body>
+</html>
